@@ -7,6 +7,37 @@
 /** 
  * Custom code section
  */
+
+/**
+ * REGIONS DEFINITIONS
+ *
+ */
+div#leaderboard {
+    width: 100vw;
+    height: 5vh;
+    border: 1px solid #555;
+    font: 1em Arial;
+    
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+
+    display: flex;
+    flex-direction: row;
+    
+    background-color: #595959;
+    color: white;
+}
+
+/**
+ * LEADERBOARD
+ *
+ */
+/* Conteneur des éléments du leaderboard */
+div.leaderboardItemContainer {}
+
+
+
+
 /* Variables */
 /* Utilities */
 .font-serif {

@@ -56,12 +56,12 @@
 %}
 <!DOCTYPE html>
 <html {{ html_attributes }}>
-  <head>
-    <head-placeholder token="{{ placeholder_token|raw }}">
-    <title>{{ head_title|safe_join(' | ') }}</title>
-    <css-placeholder token="{{ placeholder_token|raw }}">
-    <js-placeholder token="{{ placeholder_token|raw }}">
-  </head>
-  <body{{ attributes.addClass(body_classes) }}>
-    {% include '@condorcet/system/custom-header-accessibility.html.twig' %}
-    <p>Hello World !</p>
+<head>
+<head-placeholder token="{{ placeholder_token|raw }}">
+<title>{{ head_title|safe_join(' | ') }}</title>
+<css-placeholder token="{{ placeholder_token|raw }}">
+<js-placeholder token="{{ placeholder_token|raw }}">
+</head>
+<body{{ attributes.addClass(body_classes) }}>
+{% include '@condorcet/system/leaderboard.html.twig' %}
+<p>Hello World !</p>
