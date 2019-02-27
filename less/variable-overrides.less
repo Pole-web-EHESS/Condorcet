@@ -1,0 +1,89 @@
+/**
+ * Variable Overrides.
+ *
+ * Modify this file to override the Bootstrap Framework variables. You can copy
+ * these variables directly from ../bootstrap/less/variables.less to this file.
+ */
+
+// Set the directory for the theme root used to locate images, fonts etc.
+@theme-root: '/srv/www/htdocs/test_drupal/d8/drupal/web/themes/condorcet';
+
+// Set other directories relative to theme root.
+@image-path: '@{theme-root}/images';
+@icon-font-path: '@{theme-root}/bootstrap/fonts/';
+
+/** 
+ * Custom code section
+ */
+
+/* Variables */
+@couleur1:#9c09db;
+@couleur2:#b60a18;
+@couleurlien:#3d7e9a;
+
+/* Utilities */
+.font-serif {
+	font-family:"EB Garamond", "Times New Roman", serif;
+}
+.font-sans-serif {
+	font-family:"Open Sans", "Arial", sans-serif;
+}
+
+/* General */
+body {
+	.font-sans-serif();
+	line-height:1.75;
+}
+img {
+	max-width:100%;
+}
+.main-container.container {
+	width:auto;
+	margin:0;
+	padding:0;
+}
+.region.region-content {
+	padding:3vw 5vw;
+}
+a, a:hover, a:focus {
+	color:@couleurlien;
+}
+
+
+/* Node content */
+/* h1, h2 et h3 sont réservés pour la structure du site ; h4, h5 et h6 sont à disposition des éditeurs de contenu */
+h1 {
+	.font-serif();
+	font-size:3em;
+}
+h2 {
+	.font-serif();
+	font-size:2.5em;
+}
+h4 {
+	margin: 34px 0 18px;
+	font-size:2em;
+}
+h5 {
+	margin:34px 0 18px;
+	font-size:1.6em;
+}
+h6 {
+
+}
+
+.exergue {
+	font-size:1.3em;
+	border-left:4px solid @couleur1;
+	padding-left: 2ch;
+}
+aside {
+	vertical-align:top;
+	padding:1px 2.5vw 20px 1.5vw;
+	background-color:#f3f3f3;
+	border-left:4px solid @couleur1;
+	margin-bottom:50px;
+}
+.contenu-texte {
+	max-width:75ch;
+}

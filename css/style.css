@@ -1,0 +1,71 @@
+/**
+ * Variable Overrides.
+ *
+ * Modify this file to override the Bootstrap Framework variables. You can copy
+ * these variables directly from ../bootstrap/less/variables.less to this file.
+ */
+/** 
+ * Custom code section
+ */
+/* Variables */
+/* Utilities */
+.font-serif {
+  font-family: "EB Garamond", "Times New Roman", serif;
+}
+.font-sans-serif {
+  font-family: "Open Sans", "Arial", sans-serif;
+}
+/* General */
+body {
+  font-family: "Open Sans", "Arial", sans-serif;
+  line-height: 1.75;
+}
+img {
+  max-width: 100%;
+}
+.main-container.container {
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+.region.region-content {
+  padding: 3vw 5vw;
+}
+a,
+a:hover,
+a:focus {
+  color: #3d7e9a;
+}
+/* Node content */
+/* h1, h2 et h3 sont réservés pour la structure du site ; h4, h5 et h3 sont à disposition des éditeurs de contenu */
+h1 {
+  font-family: "EB Garamond", "Times New Roman", serif;
+  font-size: 3em;
+}
+h2 {
+  font-family: "EB Garamond", "Times New Roman", serif;
+  font-size: 2.5em;
+}
+h4 {
+  margin: 34px 0 18px;
+  font-size: 2em;
+}
+h5 {
+  margin: 34px 0 18px;
+  font-size: 1.6em;
+}
+.exergue {
+  font-size: 1.3em;
+  border-left: 4px solid #9c09db;
+  padding-left: 2ch;
+}
+aside {
+  vertical-align: top;
+  padding: 1px 2.5vw 20px 1.5vw;
+  background-color: #f3f3f3;
+  border-left: 4px solid #9c09db;
+  margin-bottom: 50px;
+}
+.contenu-texte {
+  max-width: 75ch;
+}
